@@ -25,8 +25,8 @@ const Hero = () => {
           <div className="md:w-1/2">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1582408921715-18e7806365c1"
-                alt="Indian storefront signage display"
+                src="/lovable-uploads/7bc68a5f-7b0d-482e-bd13-9a9adb010b21.png"
+                alt="Canteen signage display with Indian text"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
               <div className="absolute -bottom-5 -right-5 bg-[#FCD34D] p-4 rounded-lg shadow-md">

@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { X } from "lucide-react";
+import { X, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
@@ -14,7 +14,8 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
   const [formData, setFormData] = useState({
     businessName: "",
     fullName: "",
-    phoneNumber: ""
+    phoneNumber: "",
+    location: ""
   });
   const { toast } = useToast();
 
@@ -30,7 +31,7 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
     e.preventDefault();
     
     // Validate form
-    if (!formData.businessName || !formData.fullName || !formData.phoneNumber) {
+    if (!formData.businessName || !formData.fullName || !formData.phoneNumber || !formData.location) {
       toast({
         title: "Missing information",
         description: "Please fill in all fields to get your quote.",
@@ -112,6 +113,23 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
                 placeholder="Your Phone Number"
                 type="tel"
               />
+            </div>
+            
+            <div>
+              <label htmlFor="location" className="block text-sm font-medium text-[#4B5563] mb-1">
+                Location
+              </label>
+              <div className="relative">
+                <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={16} />
+                <Input
+                  id="location"
+                  name="location"
+                  value={formData.location}
+                  onChange={handleChange}
+                  className="w-full pl-10 border-[#6366F1] focus:ring-[#6366F1]"
+                  placeholder="Your Business Location"
+                />
+              </div>
             </div>
             
             <Button
