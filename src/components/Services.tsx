@@ -36,21 +36,21 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-[#F1F1F1]">
+    <section id="services" className="py-20 bg-[#F8FAFC]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#8E9196] mb-4">Our Signage Services</h2>
-          <p className="text-[#9F9EA1] max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#4338CA] mb-4">Our Signage Services</h2>
+          <p className="text-[#4B5563] max-w-2xl mx-auto">
             We offer a comprehensive range of signage solutions to meet your business needs and help you make a lasting impression.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {servicesData.map((service, index) => (
-            <Card key={index} className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 border-none">
+            <Card key={index} className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 border-none hover:border-l-4 hover:border-[#6366F1]">
               <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold text-[#8E9196] mb-3">{service.title}</h3>
-              <p className="text-[#9F9EA1]">{service.description}</p>
+              <h3 className="text-xl font-bold text-[#4338CA] mb-3">{service.title}</h3>
+              <p className="text-[#4B5563]">{service.description}</p>
             </Card>
           ))}
         </div>

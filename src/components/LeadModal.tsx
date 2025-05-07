@@ -57,22 +57,22 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
       <Card className="bg-white rounded-lg shadow-lg w-full max-w-md relative">
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 text-[#9F9EA1] hover:text-[#8E9196] transition-colors"
+          className="absolute right-4 top-4 text-gray-500 hover:text-gray-700 transition-colors"
         >
           <X size={24} />
         </button>
         
         <div className="p-6">
           <div className="mb-6 text-center">
-            <h2 className="text-2xl font-bold text-[#8E9196]">Get Your Custom Quote</h2>
-            <p className="text-[#9F9EA1]">
+            <h2 className="text-2xl font-bold text-[#4338CA]">Get Your Custom Quote</h2>
+            <p className="text-[#4B5563]">
               Fill out this quick form and we'll create a personalized signage quote for your business.
             </p>
           </div>
           
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="businessName" className="block text-sm font-medium text-[#8E9196] mb-1">
+              <label htmlFor="businessName" className="block text-sm font-medium text-[#4B5563] mb-1">
                 Business Name
               </label>
               <Input
@@ -80,13 +80,13 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
                 name="businessName"
                 value={formData.businessName}
                 onChange={handleChange}
-                className="w-full border-[#D3E4FD]"
+                className="w-full border-[#6366F1] focus:ring-[#6366F1]"
                 placeholder="Your Business Name"
               />
             </div>
             
             <div>
-              <label htmlFor="fullName" className="block text-sm font-medium text-[#8E9196] mb-1">
+              <label htmlFor="fullName" className="block text-sm font-medium text-[#4B5563] mb-1">
                 Full Name
               </label>
               <Input
@@ -94,13 +94,13 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
                 name="fullName"
                 value={formData.fullName}
                 onChange={handleChange}
-                className="w-full border-[#D3E4FD]"
+                className="w-full border-[#6366F1] focus:ring-[#6366F1]"
                 placeholder="Your Full Name"
               />
             </div>
             
             <div>
-              <label htmlFor="phoneNumber" className="block text-sm font-medium text-[#8E9196] mb-1">
+              <label htmlFor="phoneNumber" className="block text-sm font-medium text-[#4B5563] mb-1">
                 Phone Number
               </label>
               <Input
@@ -108,7 +108,7 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
                 name="phoneNumber"
                 value={formData.phoneNumber}
                 onChange={handleChange}
-                className="w-full border-[#D3E4FD]"
+                className="w-full border-[#6366F1] focus:ring-[#6366F1]"
                 placeholder="Your Phone Number"
                 type="tel"
               />
@@ -116,13 +116,13 @@ const LeadModal = ({ onClose }: LeadModalProps) => {
             
             <Button
               type="submit"
-              className="w-full bg-[#FDE1D3] hover:bg-[#EDC1B3] text-[#8E9196] py-6"
+              className="w-full bg-[#FCD34D] hover:bg-[#F59E0B] text-[#4B5563] py-6 font-medium"
             >
               Get My Quote
             </Button>
           </form>
           
-          <p className="text-xs text-center text-[#9F9EA1] mt-4">
+          <p className="text-xs text-center text-[#6B7280] mt-4">
             By submitting this form, you agree to our terms and privacy policy.
           </p>
         </div>
