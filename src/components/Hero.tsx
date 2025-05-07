@@ -27,7 +27,7 @@ const Hero = () => {
               <img
                 src="/lovable-uploads/7bc68a5f-7b0d-482e-bd13-9a9adb010b21.png"
                 alt="Canteen signage display with Indian text"
-                className="rounded-lg shadow-lg w-full h-auto object-cover"
+                className="rounded-lg shadow-lg w-full h-[400px] object-cover object-center"
               />
               <div className="absolute -bottom-5 -right-5 bg-[#FCD34D] p-4 rounded-lg shadow-md">
                 <p className="font-bold text-[#4B5563]">500+</p>

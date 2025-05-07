@@ -7,39 +7,39 @@ const projectCategories = ["All", "Exterior", "Interior", "Dimensional", "Vehicl
 const projectData = [
   {
     id: 1,
-    title: "Downtown Café Sign",
+    title: "US Pizza & Tandy's Fried Chicken",
     category: "Exterior",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    image: "/lovable-uploads/e7ee662b-fda6-44bd-98eb-99e5624f345f.png"
   },
   {
     id: 2,
-    title: "Law Office Reception",
-    category: "Interior",
-    image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    title: "Style Up Fashion Store",
+    category: "Exterior",
+    image: "/lovable-uploads/475ca62a-a89b-42b1-9d1f-95c3a47bfc41.png"
   },
   {
     id: 3,
-    title: "Tech Company Logo Wall",
+    title: "Jio BP Petrol Pump",
     category: "Dimensional",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    image: "/lovable-uploads/feaa5a7c-bbbf-4363-bfa8-f8f47693b488.png"
   },
   {
     id: 4,
-    title: "Delivery Fleet Branding",
-    category: "Vehicle",
-    image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    title: "PNR Prime & ML Grand",
+    category: "Exterior",
+    image: "/lovable-uploads/30217d6b-fea1-497d-9072-13d9d0967b69.png"
   },
   {
     id: 5,
-    title: "Shopping Mall Directory",
-    category: "Digital",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    title: "Food Court Signage",
+    category: "Interior",
+    image: "/lovable-uploads/4e51d974-c0b2-45a7-a31a-584117b2d4a2.png"
   },
   {
     id: 6,
-    title: "Boutique Store Signage",
+    title: "US Pizza Restaurant",
     category: "Exterior",
-    image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+    image: "/lovable-uploads/d9e5662f-04fc-4941-b7ff-6a343c88d21d.png"
   }
 ];
 
